@@ -3746,7 +3746,7 @@ void dump_print( int ws_row, int ws_col, int if_num )
     return;
 }
 
-char * format_text_for_csv_or_protobuf( const unsigned char * input, int len)
+char * format_text_for_csv( const unsigned char * input, int len)
 {
 	// Unix style encoding
 	char * ret;
